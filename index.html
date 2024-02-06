@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>テキスト処理</title>
+</head>
+
+<body>
+
+  <h1>テキスト操作ツール集</h1>
+<h2>文字数を数えます</h2>
+  <p>ボックス１のテキストに、ボックス２の文字が何文字含まれているか数えます。
+    重複や漏れがわかります。（サロゲートペア、異体字セレクタには対応していません）
+   
+  </p>
+
+  ボックス１<br>
+  <textarea id="input" placeholder="ここに調べたいテキストを入力してください"></textarea>
+  <br>ボックス２<br>
+  <textarea id="shogo" placeholder="ここに照合する文字列を入力してください"></textarea>
+  <br>
+  
+  <button id="checkButton">Check</button>
+  <button id="clearButton">Clear Text</button>
+
+  <p id="output"></p>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
